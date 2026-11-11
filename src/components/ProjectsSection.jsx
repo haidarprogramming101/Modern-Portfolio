@@ -37,7 +37,7 @@ export const ProjectsSection = () => {
               >
                 <div className="h-48">
                   <img
-                    src={project.image}
+                    src={`${import.meta.env.BASE_URL}images/profile.png`}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
