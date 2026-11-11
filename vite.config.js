@@ -6,6 +6,7 @@ import process from "process";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Modern-Portfolio/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
