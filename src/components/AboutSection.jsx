@@ -31,7 +31,8 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="/Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Resume.pdf`}
+                download="Resume.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
